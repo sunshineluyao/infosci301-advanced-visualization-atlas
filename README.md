@@ -2,7 +2,15 @@
 
 A static, searchable collection of AI design skills, motion and interaction galleries, direct live effects, and data sources for INFOSCI 301. Each resource has a short introduction, an official link, a page preview, and a class exercise prompt.
 
-This atlas is the **advanced visualization reference** in the course pathway. It is separate from the [basic idioms gallery](https://huggingface.co/spaces/dku-infosci301-Autumn2026/week2-visualization-gallery-template) and the course's network, spatial/spatiotemporal, and interactive visualization tutorials. The **Live effects** filter opens specific working examples; collection cards also link to selected examples.
+This atlas is the **advanced visualization reference** in the course pathway. It is separate from the [basic idioms gallery](https://huggingface.co/spaces/dku-infosci301-Autumn2026/week2-visualization-gallery-template) and the course's network, spatial/spatiotemporal, and interactive visualization tutorials. Three demonstrations run directly on the page, with **Try here** links from the relevant collection cards. The catalog also retains links to the original examples.
+
+## On-page interactive lab
+
+- **Compare:** drag the divider across two synthetic spatial heatmaps. A native range control supports keyboard use; both scenarios use the same grid, extent, and 0–100 color scale. Inspired by [Aceternity Compare](https://ui.aceternity.com/components/compare).
+- **Layered depth:** rotate a CSS 3D diagram with pointer movement or buttons, and change the distance between its synthetic surface, sample, and annotation layers. Inspired by [Aceternity 3D Card](https://ui.aceternity.com/components/3d-card-effect).
+- **Wave field:** interact with an animated canvas and adjust amplitude and speed. Pause/play is available; animation starts paused when reduced motion is requested, and stops when hidden or off screen. Inspired by [React Bits Waves](https://reactbits.dev/c/backgrounds/waves).
+
+These are original dependency-free classroom implementations of the interaction patterns, not embedded third-party pages or copied component code. All plotted values are explicitly labeled synthetic or illustrative. The wave field is decorative, not a physical model. The lab's behavior and styles live in `effects.js` and `effects.css`.
 
 ## Deploy with Vercel Git integration
 
