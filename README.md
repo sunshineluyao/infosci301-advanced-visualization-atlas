@@ -6,6 +6,10 @@ This atlas is the **advanced visualization reference** in the course pathway. It
 
 ## On-page interactive lab
 
+[Open the interactive lab](https://infosci301-advanced-visualization-a.vercel.app/#effect-lab)
+
+![The deployed lab showing interactive 3D layers and controls](docs/interactive-lab.jpg)
+
 - **Compare:** drag the divider across two synthetic spatial heatmaps. A native range control supports keyboard use; both scenarios use the same grid, extent, and 0–100 color scale. Inspired by [Aceternity Compare](https://ui.aceternity.com/components/compare).
 - **Layered depth:** rotate a CSS 3D diagram with pointer movement or buttons, and change the distance between its synthetic surface, sample, and annotation layers. Inspired by [Aceternity 3D Card](https://ui.aceternity.com/components/3d-card-effect).
 - **Wave field:** interact with an animated canvas and adjust amplitude and speed. Pause/play is available; animation starts paused when reduced motion is requested, and stops when hidden or off screen. Inspired by [React Bits Waves](https://reactbits.dev/c/backgrounds/waves).
